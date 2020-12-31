@@ -4,13 +4,22 @@
     <meta charset="utf-8">
     <script src="data.js"></script>
     <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css"></script>
     <title>Search - Most Wanted</title>
   </head>
   <body>
-    <button onclick="app(data)">Start Searching</button>
+    <button onclick="app(data)">Start Searching (old search)</button>
 
-    <-- Start of new search functionality -->
-    <input type="search" id="search-input" placeholder="Search For People">
-    <button onclick="">Search</button>
+    <!-- Start of new search functionality -->
+    <div class="search-v2">
+      <h2>New Search Using Node Backend.</h2>
+      <span>
+        <input type="search" id="search-input" placeholder="Search For People">
+        <button onclick="">Search</button>
+      </span>
+      <div class="search-options">
+        
+      </div>
+    </div>
   </body>
 </html>

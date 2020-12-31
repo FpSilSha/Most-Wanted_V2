@@ -98,3 +98,9 @@ function yesNo(input){
 function chars(input){
   return true; // default validation only
 }
+
+/** Populates URL paramas and navigates to results page. */
+function sendToResults() {
+  // Add person's id to url params to populate results page.
+  // Add optional arguments for search criteria
+}
